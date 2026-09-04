@@ -1,0 +1,14 @@
+# Sentiment & Emotion NLP Config
+model_name: "cardiffnlp/twitter-roberta-base-sentiment-latest"
+fallback_enabled: true
+emotion_labels:
+  - "Joy"
+  - "Focus"
+  - "Calm"
+  - "Anxiety"
+  - "Sadness"
+  - "Anger"
+max_sequence_length: 128
+summarizer_model: "sshleifer/distilbart-cnn-12-6"
+summarizer_max_length: 60
+summarizer_min_length: 15

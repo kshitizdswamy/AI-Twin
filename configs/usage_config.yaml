@@ -1,0 +1,22 @@
+# Screen Time & Anomaly Detection Usage Config
+feature_columns:
+  - "screen_time_mins"
+  - "social_media_mins"
+  - "productivity_mins"
+  - "entertainment_mins"
+  - "gaming_mins"
+  - "notifications"
+  - "unlocks"
+  - "battery_drain_pct"
+  - "day_of_week"
+  - "is_weekend"
+  - "prev_day_screen_time"
+  - "rolling_3d_avg"
+  - "rolling_7d_avg"
+  - "prod_ratio"
+  - "social_ratio"
+  - "screen_time_change"
+target_column: "next_day_screen_time"
+anomaly_threshold_std: 1.8
+contamination: 0.1
+target_accuracy_threshold: 0.83
