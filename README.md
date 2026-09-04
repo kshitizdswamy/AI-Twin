@@ -1,4 +1,4 @@
-# Smart AI Twin 👥📱
+# Smart AI Twin
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.95+-009688.svg)](https://fastapi.tiangolo.com)
@@ -10,18 +10,18 @@ A personalized Python AI Assistant that analyzes daily user activity, text inter
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
-- 🔮 **Screen Time Forecasting**: ML model (Random Forest / Gradient Boosting) forecasting daily screen time and digital usage trends with **83%+ accuracy**.
-- 🚨 **Digital Wellbeing Anomaly Detection**: Statistical & Isolation Forest anomaly flags alerting users of unhealthy usage spikes and digital burnout risks.
-- 🧠 **NLP Sentiment & Emotion Intelligence**: Transformer-backed sentiment analysis, fine-grained emotion detection (*Joy, Focus, Calm, Anxiety, Sadness, Anger*), and daily text summarization.
-- ⚡ **FastAPI REST Service**: Production-ready asynchronous endpoints (`/predict/usage`, `/analyze/text`, `/chat`, `/analytics`).
-- 📊 **Interactive Streamlit Dashboard**: Modern UI with interactive Plotly analytics, emotion breakdown charts, and a personal AI Twin Chatbot.
-- 💬 **Context-Aware AI Twin Chatbot**: Empathetic conversational agent offering personalized productivity, focus, and digital detox advice.
+- **Screen Time Forecasting**: ML model (Random Forest / Gradient Boosting) forecasting daily screen time and digital usage trends with **83%+ accuracy**.
+- **Digital Wellbeing Anomaly Detection**: Statistical & Isolation Forest anomaly flags alerting users of unhealthy usage spikes and digital burnout risks.
+- **NLP Sentiment & Emotion Intelligence**: Transformer-backed sentiment analysis, fine-grained emotion detection (*Joy, Focus, Calm, Anxiety, Sadness, Anger*), and daily text summarization.
+- **FastAPI REST Service**: Production-ready asynchronous endpoints (`/predict/usage`, `/analyze/text`, `/chat`, `/analytics`).
+- **Interactive Streamlit Dashboard**: Modern UI with interactive Plotly analytics, emotion breakdown charts, and a personal AI Twin Chatbot.
+- **Context-Aware AI Twin Chatbot**: Empathetic conversational agent offering personalized productivity, focus, and digital detox advice.
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```
                                ┌────────────────────────────────┐
@@ -98,7 +98,7 @@ AI-Twin-Project/
 
 ---
 
-## 🚀 Quick Start Guide
+## Quick Start Guide
 
 ### 1. Prerequisites
 Ensure you have **Python 3.9+** installed.
@@ -125,7 +125,7 @@ pip install -e .
 
 ---
 
-## 🏋️ Model Training & Evaluation
+## Model Training & Evaluation
 
 Train the screen time forecasting model and evaluate precision/recall:
 
@@ -140,7 +140,7 @@ python src/evaluation/evaluate_sentiment.py
 
 ---
 
-## 🖥️ Running the Application
+## Running the Application
 
 ### 1. Interactive Streamlit Dashboard (Recommended)
 
@@ -175,7 +175,7 @@ python app/main.py --cli
 
 ---
 
-## 🧪 Running Automated Tests
+## Running Automated Tests
 
 Run the full unit test suite:
 
@@ -185,7 +185,7 @@ pytest tests/
 
 ---
 
-## 🐙 Pushing to Your Personal GitHub Account
+## Pushing to Your Personal GitHub Account
 
 To publish this completed project under your own GitHub account:
 
@@ -204,5 +204,5 @@ To publish this completed project under your own GitHub account:
 
 ---
 
-## 📄 License
+## License
 Distributed under the **MIT License**.
