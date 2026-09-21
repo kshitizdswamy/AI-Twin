@@ -182,26 +182,6 @@ Run the full unit test suite:
 ```bash
 pytest tests/
 ```
-
----
-
-## Pushing to Your Personal GitHub Account
-
-To publish this completed project under your own GitHub account:
-
-1. **Create a new repository** on GitHub (e.g., `AI-Twin-Project`).
-2. **Update Git Remote** in your local terminal:
-   ```bash
-   git remote set-url origin https://github.com/<YOUR_GITHUB_USERNAME>/AI-Twin-Project.git
-   ```
-3. **Commit and Push**:
-   ```bash
-   git add .
-   git commit -m "Complete Smart AI Twin end-to-end implementation with FastAPI, Streamlit, and NLP Transformers"
-   git branch -M main
-   git push -u origin main
-   ```
-
 ---
 
 ## License
